@@ -287,6 +287,60 @@ body {
     text-decoration: none;
     border: none;
 }
+.projects {
+    position: relative;
+}
+
+.project-title:link, .project-title:active, .project-title:visited {
+    text-decoration: none;
+    color: rgb(255, 224, 184);
+    text-decoration: none;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 1.5rem;
+}
+
+
+.project-title:hover {
+    color: bisque;
+    text-decoration: underline;
+    font-size: 1.7rem;
+}
+
+.kaggle {
+    color: white;
+    margin: 50px auto;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 250%;
+    text-shadow: 1px 1px 1px rgb(255, 0, 255, 0.4);
+}
+
+dt {
+    margin: 1px 0 1px 100px;
+    padding: 5px;
+}
+
+dt {
+    color: rgb(255, 224, 184);
+    text-decoration: none;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 1.5rem;
+}
+
+
+
+
+dd {
+    color: rgb(172, 172, 172);
+    text-decoration: none;
+    margin-left: 120px;
+    font-family: "VT323", monospace;
+    font-size: 130%;
+}
+
+
 .socials {
     display: flex;
     justify-content: center;
@@ -416,3 +470,5 @@ body {
         border-image: linear-gradient(45deg, rgba(56, 248, 248, 0.7), rgba(255, 34, 156, 0.7)) 1;
 }
 }
+
+
