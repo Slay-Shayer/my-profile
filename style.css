@@ -190,8 +190,8 @@ body {
     border-right: 2px solid white;
     white-space: nowrap;
     text-shadow: 1px 1px 0.1px blue ;
-    animation: typewritten steps(55, end) alternate infinite;
-    -webkit-animation: typewritten 4s steps(55, end) alternate infinite;
+    animation: typewritten 4s steps(55, end) alternate infinite,        changingcolor 25s linear alternate infinite;
+    -webkit-animation: typewritten 4s steps(55, end) alternate infinite,        changingcolor 25s linear alternate infinite;
 }
 
 
@@ -205,7 +205,41 @@ body {
         opacity: 100%;
     }
 }
-
+@keyframes changingcolor{
+    0% {
+        color: white;
+    }
+    10% {
+        color: rgb(163, 255, 163);
+    }
+    20% {
+        color: rgb(153, 153, 255);
+    }
+    30% {
+        color: rgb(255, 177, 177);
+    }
+        10% {
+        color: rgb(225, 255, 141);
+    }
+    20% {
+        color: rgb(255, 123, 162);
+    }
+    30% {
+        color: rgb(96, 98, 100);
+    }
+        10% {
+        color: rgb(79, 161, 255);
+    }
+    20% {
+        color: rgb(147, 255, 171);
+    }
+    30% {
+        color: rgb(255, 117, 232);
+    }
+    100% {
+        color: rgb(74, 219, 255);
+    }
+}
 
 .mynamelink:link,
 .mynamelink:active {
