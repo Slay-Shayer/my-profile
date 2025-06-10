@@ -357,8 +357,8 @@ body {
 
 
 .project-title:hover {
-    color: bisque;
-    text-decoration: underline;
+    color: rgb(83, 249, 255);
+    text-decoration: underline bisque;
     font-size: 1.7rem;
 }
 
