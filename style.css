@@ -379,7 +379,7 @@ dd {
 .socials {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 10px;
     align-items: center;
     margin-top: 50px;
     background-color: black;
