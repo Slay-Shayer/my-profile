@@ -551,18 +551,18 @@ dd {
 .moving-icon {
     font-size: 300%;
     text-align: center;
-    animation: right-left 10s steps(60, end) alternate infinite;
-    -webkit-animation: right-left 10s steps(60, end) alternate infinite;
+    animation: right-left 15s steps(60, end) alternate infinite, twinkle .5s forwards alternate infinite;
+    -webkit-animation: right-left 15s steps(60, end) alternate infinite, twinkle .5s forwards alternate infinite;
 }
 
 
 @keyframes right-left {
     0% {
-        transform: translate(-300px, -3px);
-        -webkit-transform: translate(-300px, -3px);
-        -moz-transform: translate(-300px, -3px);
-        -ms-transform: translate(-300px, -3px);
-        -o-transform: translate(-300px, -3px);
+        transform: translate(-300px, -5px);
+        -webkit-transform: translate(-300px, -5px);
+        -moz-transform: translate(-300px, -5px);
+        -ms-transform: translate(-300px, -5px);
+        -o-transform: translate(-300px, -5px);
 }
     10%{
         transform: translate(-240px, 0);
@@ -572,11 +572,11 @@ dd {
         -o-transform: translate(-240px, 0);
 }
         20%{
-        transform: translate(-180px, 3px);
-        -webkit-transform: translate(-180px, 3px);
-        -moz-transform: translate(-180px, 3px);
-        -ms-transform: translate(-180px, 3px);
-        -o-transform: translate(-180px, 3px);
+        transform: translate(-180px, 5px);
+        -webkit-transform: translate(-180px, 5px);
+        -moz-transform: translate(-180px, 5px);
+        -ms-transform: translate(-180px, 5px);
+        -o-transform: translate(-180px, 5px);
 }
         30%{
         transform: translate(-120px, 0);
@@ -586,11 +586,11 @@ dd {
         -o-transform: translate(-120px, 0);
 }
         40%{
-        transform: translate(-60px, -3px);
-        -webkit-transform: translate(-60px, -3px);
-        -moz-transform: translate(-60px, -3px);
-        -ms-transform: translate(-60px, -3px);
-        -o-transform: translate(-60px, -3px);
+        transform: translate(-60px, -5px);
+        -webkit-transform: translate(-60px, -5px);
+        -moz-transform: translate(-60px, -5px);
+        -ms-transform: translate(-60px, -5px);
+        -o-transform: translate(-60px, -5px);
 }
         50%{
         transform: translate(0px, 0);
@@ -600,11 +600,11 @@ dd {
         -o-transform: translate(0px, 0);
 }
         60%{
-        transform: translate(60px, 3px);
-        -webkit-transform: translate(60px, 3px);
-        -moz-transform: translate(60px, 3px);
-        -ms-transform: translate(60px, 3px);
-        -o-transform: translate(60px, 3px);
+        transform: translate(60px, 5px);
+        -webkit-transform: translate(60px, 5px);
+        -moz-transform: translate(60px, 5px);
+        -ms-transform: translate(60px, 5px);
+        -o-transform: translate(60px, 5px);
 }
 
         70%{
@@ -615,11 +615,11 @@ dd {
         -o-transform: translate(120px, 0);
 }
         80%{
-        transform: translate(180px, -3px);
-        -webkit-transform: translate(180px, -3px);
-        -moz-transform: translate(180px, -3px);
-        -ms-transform: translate(180px, -3px);
-        -o-transform: translate(180px, -3px);
+        transform: translate(180px, -5px);
+        -webkit-transform: translate(180px, -5px);
+        -moz-transform: translate(180px, -5px);
+        -ms-transform: translate(180px, -5px);
+        -o-transform: translate(180px, -5px);
 }
         90%{
         transform: translate(240px, 0);
@@ -629,11 +629,11 @@ dd {
         -o-transform: translate(240px, 0);
 }
     100% {
-        transform: translate(300px, 3px);
-        -webkit-transform: translate(300px, 3px);
-        -moz-transform: translate(300px, 3px);
-        -ms-transform: translate(300px, 3px);
-        -o-transform: translate(300px, 3px);
+        transform: translate(300px, 5px);
+        -webkit-transform: translate(300px, 5px);
+        -moz-transform: translate(300px, 5px);
+        -ms-transform: translate(300px, 5px);
+        -o-transform: translate(300px, 5px);
 }
 }
 
