@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    scroll-behavior: smooth;
 }
 
 .stars {
@@ -273,10 +274,28 @@ body {
 
 
 .kaggle {
-    animation: up-down 2s ease-in-out alternate infinite, twinkle 5s ease-in alternate;
-    -webkit-animation: up-down 2s ease-in-out alternate infinite, twinkle 5s ease-in alternate;
+    animation: up-down 2s ease-in-out alternate infinite, fadein 2s ease-in;
+    -webkit-animation: up-down 2s ease-in-out alternate infinite, fadein 2s ease-in;
 }
 
+.onscrollappear {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0  cover 40%;
+    -webkit-animation: appear linear;
+}
+
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
 
 @keyframes fadein {
     from {
