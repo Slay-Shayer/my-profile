@@ -372,6 +372,7 @@ dd {
     margin-left: 120px;
     font-family: "VT323", monospace;
     font-size: 130%;
+    margin-right: 50px;
 }
 
 
@@ -380,7 +381,7 @@ dd {
     justify-content: center;
     gap: 50px;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
     background-color: black;
 }
 
