@@ -329,7 +329,7 @@ body {
     text-decoration: none;
     color: rgb(255, 224, 184);
     text-decoration: none;
-    font-family: "Pixelify Sans", sans-serif;
+    font-family: "VT323", monospace;
     font-size: 1.5rem;
 }
 
@@ -348,7 +348,8 @@ body {
     text-align: center;
     font-family: "Pixelify Sans", sans-serif;
     font-size: 250%;
-    text-shadow: 1px 1px 1px rgb(255, 0, 255, 0.4);
+    text-shadow: -2px -2px -2px rgb(255, 0, 255, 0.4);
+    text-shadow: 1px 1px 1px rgba(111, 240, 240, 1);
 }
 
 dt {
@@ -376,12 +377,30 @@ dd {
 }
 
 
+.middle-title {
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 224, 184);
+    font-family: "VT323", monospace;
+    font-size: 300%;
+    margin: 5px auto;
+}
+
+.middle-desc {
+    color: rgb(172, 172, 172);
+    text-align: center;
+    margin: 2px auto;
+    font-family: "VT323", monospace;
+    font-size: 130%;
+}
+
+
 .socials {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 50px;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 10px;
     background-color: black;
 }
 
