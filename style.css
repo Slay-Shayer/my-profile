@@ -272,6 +272,28 @@ body {
 }
 
 
+.kaggle {
+    animation: up-down 2s ease-in-out alternate infinite, twinkle 6s ease-in alternate;
+    -webkit-animation: up-down 2s ease-in-out alternate infinite, twinkle 6s ease-in alternate;
+}
+@keyframes up-down {
+    0% {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+}
+    100% {
+        transform: translateY(-4px);
+        -webkit-transform: translateY(-4px);
+        -moz-transform: translateY(-4px);
+        -ms-transform: translateY(-4px);
+        -o-transform: translateY(-4px);
+}
+}
+
+
 @keyframes floating {
     0% {
         transform: translateY(0) rotate(-1deg);
@@ -281,11 +303,11 @@ body {
         -o-transform: translateY(0) rotate(-1deg);
 }
     25% {
-        transform: translateY(-5px) rotate(0deg);
-        -webkit-transform: translateY(-5px) rotate(0deg);
-        -moz-transform: translateY(-5px) rotate(0deg);
-        -ms-transform: translateY(-5px) rotate(0deg);
-        -o-transform: translateY(-5px) rotate(0deg);
+        transform: translateY(-10px) rotate(0deg);
+        -webkit-transform: translateY(-10px) rotate(0deg);
+        -moz-transform: translateY(-10px) rotate(0deg);
+        -ms-transform: translateY(-10px) rotate(0deg);
+        -o-transform: translateY(-10px) rotate(0deg);
 }
     50%{
     transform: translateY(0px) rotate(1deg);
@@ -295,11 +317,11 @@ body {
     -o-transform: translateY(0px) rotate(1deg);
 }
  70% {
-    transform: translateY(5px) rotate(-1deg);
-    -webkit-transform: translateY(5px) rotate(-1deg);
-    -moz-transform: translateY(5px) rotate(-1deg);
-    -ms-transform: translateY(5px) rotate(-1deg);
-    -o-transform: translateY(5px) rotate(-1deg);
+    transform: translateY(10px) rotate(-1deg);
+    -webkit-transform: translateY(10px) rotate(-1deg);
+    -moz-transform: translateY(10px) rotate(-1deg);
+    -ms-transform: translateY(10px) rotate(-1deg);
+    -o-transform: translateY(10px) rotate(-1deg);
 }
 100% {
     transform: translateY(0px) rotate(0deg);
